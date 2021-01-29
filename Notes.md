@@ -31,4 +31,11 @@ Update firebase.json as needed (see final file)
 ng build --prod
 firebase deploy
 App gets deployed to https://followers-app-38dad.web.app (see output)
-Add shortcut "deploy:firebase" to package.json, now you can deploy using deploy:firebase
+Add shortcut "deploy:firebase" to package.json, now you can deploy using npm run deploy:firebase
+
+# Deploy to heroku
+Create heroku account
+Install heroku cli (Google it and install it)
+heroku create
+Copy the url and check in browser
+Deployment is complicated. Check Moshs tutorial 
