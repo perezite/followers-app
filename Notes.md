@@ -38,4 +38,5 @@ Create heroku account
 Install heroku cli (Google it and install it)
 heroku create
 Copy the url and check in browser
-Deployment is complicated. Check Moshs tutorial 
+Deployment is complicated. Check Moshs tutorial.
+App is deployed to https://guarded-reaches-01079.herokuapp.com/
