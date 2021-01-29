@@ -11,3 +11,10 @@
 - ng build --prod --> Applies various optimizations before compiling into dist-folder (minification, uglification, dead code removal etc.)
 - The contents of a dist folder are ready to be copied to a webserver and then served to the client as-is
 - A hash is added to the bundle filename. This hash is changed in every build to circumevent in-browser caching and therefore forcing a reload in the client after a redeploy of the app.
+
+# Deploy to Github pages
+npm i -g angular-cli-ghpages
+ng build --prod --base-href="https://perezite.github.io/followers-app/"
+ngh
+Shortcut (see definition in package.json): npm run deploy:gh
+Check the page at: https://perezite.github.io/followers-app/followers
