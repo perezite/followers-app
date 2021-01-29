@@ -18,3 +18,17 @@ ng build --prod --base-href="https://perezite.github.io/followers-app/"
 ngh
 Shortcut (see definition in package.json): npm run deploy:gh
 Check the page at: https://perezite.github.io/followers-app/followers
+
+# Deploy to firebase
+Create project on firebase
+npm install i -g firebase-tools
+firebase login
+firebase init
+Select hosting
+Select followers-app
+Complete the wizard
+Update firebase.json as needed (see final file)
+ng build --prod
+firebase deploy
+App gets deployed to https://followers-app-38dad.web.app (see output)
+Add shortcut "deploy:firebase" to package.json, now you can deploy using deploy:firebase
